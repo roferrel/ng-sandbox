@@ -1,0 +1,45 @@
+.light-theme {
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+    
+    --neutrals-color-10: #F7F2EE;
+    --neutrals-color-20: #DDD9D6;
+    --neutrals-color-30: #9B9896;
+    --neutrals-color-40: #2C2B2B;
+
+    --purple-color-10: #F8F8FA;
+    --purple-color-20: #E0DDED;
+    --purple-color-30: #B1A9D1;
+    --purple-color-40: #8275B5;
+    --purple-color-50: #6B688E;
+    --purple-color-60: #403D6E;
+    --purple-color-70: #2B275E;
+    --purple-color-80: #1D1B42;
+    --purple-color-90: linear-gradient(180deg, #6353A3 0%, #1D1B42 100%);
+
+    --pink-color-10: #FDEAF3;
+    --pink-color-20: #FABFDA;
+    --pink-color-30: #F47FB6;
+    --pink-color-40: #ED2985;
+    --pink-color-50: #BE216A;
+    --pink-color-60: #8F1B50;
+    --pink-color-70: #5F1035;
+    --pink-color-80: linear-gradient(180deg, #ED2985 0%, #BE216A 100%);
+
+    --yellow-color-10: #FFF0DA;
+    --yellow-color-20: #FEC77C;
+    --yellow-color-30: #FBAE42;
+    --yellow-color-40: #C88B30;
+    --yellow-color-80: linear-gradient(180deg, #FEC77C 0%, #C88B30 100%);
+
+    --navy-color: #231F99;
+    --plum-color: #A20087;
+    --salmon-color: #FE84A7;
+    --red-color: #F43737;
+    --orange-color: #FF812B;
+    --terracotta-color: #FBAE43;
+    --mustard-color: #FFCB04;
+    --green-color: #5ABC58;
+    --turquoise-color: #0090AC;
+    --blue-color: #03B3EE;
+}

@@ -1,4 +1,9 @@
-@use '@angular/material' as mat;
+@use "@angular/material" as mat;
+
+@use "./assets/styles/themes/light-theme.scss";
+@use "./assets/styles/themes/variables.scss" as variables;
+@use "./assets/styles/mixins.scss" as mixins;
+@use "./assets/styles/global-styles.scss" as globalStyles;
 
 body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
@@ -6,15 +11,17 @@ body {
   padding: 30px;
   height: 100%;
 
-  @include mat.theme((
-    color: (
-      theme-type: light,
-      primary: mat.$azure-palette,
-      tertiary: mat.$blue-palette,
-    ),
-    typography: Roboto,
-    density: 0,
-  ));
+  @include mat.theme(
+    (
+      color: (
+        theme-type: light,
+        primary: mat.$azure-palette,
+        tertiary: mat.$blue-palette,
+      ),
+      typography: Roboto,
+      density: 0,
+    )
+  );
 }
 
 html {

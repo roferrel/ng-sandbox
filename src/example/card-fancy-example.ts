@@ -8,7 +8,7 @@ import {MatCardModule} from '@angular/material/card';
 @Component({
   selector: 'card-fancy-example',
   templateUrl: 'card-fancy-example.html',
-  styleUrl: 'card-fancy-example.css',
+  styleUrl: 'card-fancy-example.scss',
   imports: [MatCardModule, MatButtonModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
